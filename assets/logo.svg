@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-label="no_apple_ai">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="920" height="220" rx="24" fill="url(#bg)"/>
+  <rect width="920" height="220" rx="24" fill="url(#grid)" opacity="0.55"/>
+  <!-- abstract fruit + slash -->
+  <g transform="translate(78,42)">
+    <path d="M68 28c18-22 40-28 44-12 8-2 22 10 18 30-6 34-34 72-62 72s-56-38-62-72c-4-20 10-32 18-30 4-16 26-10 44 12z" fill="none" stroke="#e6edf3" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M78 8c0 14-10 24-22 28" fill="none" stroke="#e6edf3" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18 18 L118 118" stroke="#ff7b72" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- wordmark -->
+  <text x="250" y="108" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="56" font-weight="700">no_apple_ai</text>
+  <rect x="250" y="132" width="268" height="36" rx="18" fill="#238636" fill-opacity="0.22" stroke="#3dd68c" stroke-opacity="0.55"/>
+  <text x="268" y="156" fill="#3dd68c" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" letter-spacing="2">APPLE AI  ·  OFFLINE</text>
+  <!-- RAM bars -->
+  <g transform="translate(720,48)" fill="#ff7b72" opacity="0.35">
+    <rect x="0" y="10" width="18" height="120" rx="4"/>
+    <rect x="28" y="30" width="18" height="100" rx="4"/>
+    <rect x="56" y="50" width="18" height="80" rx="4"/>
+  </g>
+  <g transform="translate(720,48)" fill="#3dd68c">
+    <rect x="84" y="90" width="18" height="40" rx="4"/>
+    <rect x="112" y="110" width="18" height="20" rx="4"/>
+    <rect x="140" y="118" width="18" height="12" rx="4"/>
+  </g>
+</svg>
