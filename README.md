@@ -11,6 +11,7 @@
   <img alt="macOS" src="https://img.shields.io/badge/macOS-27+-000000?style=for-the-badge&logo=apple&logoColor=white" />
   <img alt="Bash" src="https://img.shields.io/badge/bash-pure-3dd68c?style=for-the-badge&logo=gnubash&logoColor=black" />
   <img alt="Version" src="https://img.shields.io/badge/version-1.6.0-238636?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
   <img alt="SIP" src="https://img.shields.io/badge/nuclear-SIP_off-ff7b72?style=for-the-badge" />
 </p>
 
@@ -125,9 +126,18 @@ Undo: `./disable-apple-ai.sh nuclear-undo` then Recovery → `csrutil enable`.
 - Use at your own risk. **Read the script** before running.
 - Killing AI pieces can briefly break **Spotlight / Apps** — restart Spotlight if the Dock Apps icon won't open.
 - Skip animation: `DISABLE_APPLE_AI_NO_ANIM=1 ./disable-apple-ai.sh disable medium`
+- Not affiliated with Apple Inc. “Apple”, “Siri”, and “Apple Intelligence” are trademarks of Apple Inc. This project is an independent utility that only configures/stops local processes on *your* Mac.
+
+---
+
+## License
+
+[MIT](LICENSE) — © 2026 Neven Kordić
+
+Provided **as is**, with **no warranty**. You are responsible for how you use it (including SIP / system changes).
 
 ---
 
 <p align="center">
-  <sub>macOS · bash · no Homebrew</sub>
+  <sub>macOS · bash · no Homebrew · MIT</sub>
 </p>
